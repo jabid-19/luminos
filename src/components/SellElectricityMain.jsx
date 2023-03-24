@@ -109,7 +109,7 @@ export const SellElectricityMain = () => {
                       alt="Connect electricity"
                     />
                   </div>
-                  <div className="max-w-2xl">
+                  <div className="md:max-w-xs lg:max-w-md xl:max-w-2xl">
                     <h3 className="text-xl font-bold">{item.title}</h3>
                     <ul className="font-light list-disc list-outside pl-5 mt-2 text-lg">
                       {item.lists.map((list, index) => (
